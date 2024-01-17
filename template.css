@@ -1,0 +1,36 @@
+.flex{
+	display: flex;
+}
+.flexCenter{
+	display: flex;
+	align-items: center;
+}
+.flexJustifyCenter{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.items-center{
+	align-items: center;
+}
+.justify-between{
+	justify-content: between;
+}
+.grid{
+	display: grid;
+}
+.grid-cols-2{
+	grid-template-columns: repeat(2, 1fr);
+}
+.grid-cols-3{
+	grid-template-columns: repeat(3, 1fr);
+}
+.grid-cols-4{
+	grid-template-columns: repeat(4, 1fr);
+}
+.grid-cols-5{
+	grid-template-columns: repeat(5, 1fr);
+}
+.grid-cols-6{
+	grid-template-columns: repeat(6, 1fr);
+}
